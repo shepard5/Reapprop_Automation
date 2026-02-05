@@ -14,7 +14,11 @@
       "Bash(git branch:*)",
       "Bash(git push:*)",
       "Bash(git reset:*)",
-      "Bash(git update-ref:*)"
+      "Bash(git update-ref:*)",
+      "Bash(python -c:*)",
+      "Bash(python3:*)",
+      "Bash(cmd.exe /c \"where python\")",
+      "Bash(cmd.exe /c \"py --version\")"
     ]
   }
 }
