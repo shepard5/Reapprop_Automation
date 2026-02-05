@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show:*)",
+      "Bash(where:*)",
+      "Bash(python3 -m pip show:*)",
+      "Bash(py:*)",
+      "Bash(gh auth:*)",
+      "Bash(git --version:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Reappropriation automation project\n\n- PDF source files for 2025-26 and 2026-27 reappropriations \\(ATL, CAP, STOPS\\)\n- Python scripts for parsing and extracting reappropriation details\n- Jupyter notebook for comparison analysis\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git reset:*)",
+      "Bash(git update-ref:*)"
+    ]
+  }
+}
